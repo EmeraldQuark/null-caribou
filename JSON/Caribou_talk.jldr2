@@ -159,7 +159,7 @@
 			],
 			[
 				"[e:quiet]Once, [w:0.2]I said we would dance forever - [w:0.3]until the end of all things.[w:0.4]",
-				"[e:anger]Now, [w:0.2]I realise that may have always been what you want.[w:0.4]",
+				"[e:anger]Now, [w:0.2][e:neutral]I realise that may have always been what you want.[w:0.4]",
 				"[e:laughter]Well, so be it. [w:0.2]Let our war continue until the stars grow bright...[w:0.2]",
 				"and our thoughts so old as that which birthed us.[w:1]"
 			],
