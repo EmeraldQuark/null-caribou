@@ -1,0 +1,11 @@
+{
+    "name": "Null_Reindeer",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/EmeraldQuark/null-caribou",
+    "description": "Adds a new Caribou card to Act 1 and KCM.",
+    "dependencies": [
+      "BepInEx-BepInExPack_Inscryption-5.4.1901",
+      "API_dev-API-2.9.1",
+      "MADH95Mods-JSONCardLoader-2.3.0"
+    ]
+}

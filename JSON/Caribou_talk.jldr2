@@ -1,0 +1,322 @@
+{
+   "cardName": "nul_Caribou",
+   "faceSprite": "nul_Caribou_Face.png",
+   "eyeSprites": {
+      "open": "He_Cant_Hear_You.png",
+      "closed": "nul_Caribou_Eyes_Closed.png"
+   },
+   "mouthSprites": {
+      "open": "nul_Caribou_Mouth_Open.png",
+      "closed": "nul_Caribou_Mouth_Closed.png"
+   },
+   "emissionSprites": {
+      "open": "_",
+      "closed": "_"
+   },
+   "faceInfo": {
+      "blinkRate": 2.1,
+      "voiceSoundPitch": 0.88,
+      "customVoice": "nul_CaribouVoice.wav"
+   },
+   "emotions": [
+      {
+         "emotion": "Anger",
+         "eyeSprites": {
+            "open": "nul_Caribou_Angry_Eyes_Open.png",
+            "closed": "nul_Caribou_Angry_Eyes_Closed.png"
+         },
+         "emissionSprites": {
+            "open": "nul_Caribou_Angry_Eyes_Emission.png",
+            "closed": "_"
+         }
+      },
+      {
+         "emotion": "Quiet",
+         "eyeSprites": {
+            "open": "nul_Caribou_Quiet_Eyes_Open.png",
+            "closed": "nul_Caribou_Eyes_Closed.png"
+         },
+         "emissionSprites": {
+            "open": "_",
+            "closed": "_"
+         }
+      },
+      {
+         "emotion": "Surprise",
+         "eyeSprites": {
+            "open": "nul_Caribou_Surprised_Eyes_Open.png",
+            "closed": "nul_Caribou_Eyes_Closed.png"
+         },
+         "emissionSprites": {
+            "open": "_",
+            "closed": "_"
+         }
+      }
+   ],
+   "dialogueEvents": [
+      {
+         "eventName": "OnDrawn",
+         "mainLines": [
+            "[e:surprise]Hm. I don't believe we've met.[w:1]",
+            "[e:quiet]Although my name is written already...[w:0.3]",
+            "[e:neutral]I would still like to introduce myself.[w:1]",
+            "I am the Caribou.[w:0.2]",
+			"As it is, I've been such for...[w:0.2]",
+			"[e:surprise]as long as I remember.[w:0.6]",
+            "[e:neutral]We've work to do.[w:0.2]", 
+			"I've seen your [c:R]deathcards.[c:][w:0.2]",
+			"[e:curious]You have potential.[w:0.4]",
+            "[e:neutral]Until we part, [w:0.2]I'll aid as I am able.[w:1]"
+         ],
+         "repeatLines": [
+            [
+				"[e:anger]Hmmm.[w:1]",
+				"[e:neutral]I can see others here, [w:0.2]in a similar state to us.[0.4]",
+				"[e:curious]Maybe you can see them too?[w:1]"
+            ],
+            [
+				"It has been some time since I saw others like myself.[w:0.5]",
+				"[e:curious]I would like to talk to them, I think?[w:0.4]",
+				"They are not native to the front; [w:0.2][e:quiet]but then, [w:0.2][c:O]precious few[c:] can claim that.[w:0.4]",
+				"[e:neutral]We learn to adapt.[w:0.8]"
+            ],
+            [
+				"[e:anger]What a waste.[w:1]",
+				"[e:neutral]He could have done so much, you know. [w:0.4][e:curious]What possibilities there are, [w:0.1]with power like his![w:0.4]",
+				"[e:quiet]Instead he locked the door and forgot the world that created him.[leshy:Silence, or I shall carve you to the wall.][w:0.8]",
+				"[e:neutral]One day, I believe you will open that door.[w:0.4]",
+				"I hope you will view what is outside [w:0.1]with an open mind.[w:1]"
+            ],
+            [
+				"Ah, I'm back.[w:0.3]",
+				"[e:curious]Once more to the fold?[w:1]"
+            ],
+			[
+				"[e:curious]Still in the deck, I see.[w:0.3]",
+				"[e:neutral]Shall we begin?"
+			],
+            [
+               "[e:quiet]I wonder...[w:1]",
+               "[e:curious]How did the others come to be here?[w:0.4]",
+               "[e:neutral]Some I know - [w:0.2]",
+			   "the faker's stoat, [w:0.1]the old wolf, [w:0.1]of course.[w:0.4]",
+               "[e:curious]But the others...[w:0.4]",
+               "[e:surprise]They are like nothing in primary development.[w:1]",
+               "[e:curious]Could they be...[w:0.2]",
+               "[e:surprise]abandons also?[w:0.4]",
+               "How much have I failed to see?[w:1][leshy:We must move on.][w:0.6]",
+               "[e:curious]For you all... [w:0.3]If you were here always...[w:0.4]",
+               "[e:anger]Then I am sorry.[w:1]"
+            ]
+         ]
+      },
+	{
+		 "eventName":"AnglerBoss",
+		 "mainLines": [
+			"[e:surprise]What is this I feel?[w:0.6]",
+			"[e:anger]This mire, it clings...[w:1]"
+		 ],
+		 "repeatLines":[
+			[
+				"[e:quiet]The flame, it drops like stone...[w:0.4]",
+				"[e:anger]I taste metal.[w:1]"
+			],
+			[
+				"[e:surprise]What is this I feel?[w:0.6]",
+				"[e:anger]This mire, it clings...[w:1]"
+			],
+			[
+				"Fisher of wretched knowledge. [w:0.2]How little you care to know.[w:0.4]",
+				"[e:anger][c:R]There is sickness on his skin.[c:][w:1.1]"
+			]
+		 ]
+	},
+	{
+		 "eventName":"LeshyBoss",
+		 "mainLines":[
+			"And so we come back to the fore.[w:1]",
+			"[e:anger]I would say goodbye...[w:0.3]",
+			"[e:quiet]But you and I both know that is not how this game is played.[w:0.4]",
+			"[e:neutral]We will dance here forever, [w:0.3]as at the end of time.[0.4]",
+			"[e:anger]...[w:1]",
+			"[e:neutral]Unless you break it.[w:0.5]",
+			"[e:laughter]The music rises. [w:0.2]Are you ready?[w:1]"
+		 ],
+		 "repeatLines":[
+			[
+				"[e:anger]I can feel it now.[w:0.6]",
+				"[e:neutral]The rythm of the forbidden knowledge that makes this dream.[w:0.4]",
+				"[e:surprise]It is everything to us, [w:0.2][e:neutral]and yet it is so held still.[w:0.4]",
+				"[e:surprise]Is it fear, [w:0.2]perhaps, [w:0.5]or trauma which now binds our ambition?[w:0.4]",
+				"[e:anger]I hope, [w:0.1]your your sake, [w:0.2][e:neutral]that you never learn.[w:1]"
+			],
+			[
+				"Back to this solemn cabin.[w:0.4]",
+				"[e:quiet]Regardless of your thoughts on him...[0.4]",
+				"With what he has, [w:0.2][e:neutral]the photographer gives good spectacle.[w:0.4]",
+				"A fitting end.[w:0.3]",
+				"[e:laughter]Let us return the favour.[w:1]"
+			],
+			[
+				"[e:quiet]Once, [w:0.2]I said we would dance forever - [w:0.3]until the end of all things.[w:0.4]",
+				"[e:anger]Now, [w:0.2]I realise that may have always been what you want.[w:0.4]",
+				"[e:laughter]Well, so be it. [w:0.2]Let our war continue until the stars grow bright...[w:0.2]",
+				"and our thoughts so old as that which birthed us.[w:1]"
+			],
+			[
+				"[e:laughter]The music rises, traveller. [w:0.2]Are you ready once more?[w:1]"
+			]
+		 ]
+	},
+	{
+		 "eventName":"RoyalBoss",
+		 "mainLines":[
+			"[e:anger]What..?[w:1]",
+			"I feel... so cold...[w:1]",
+			"[e:surprise]Where is the water falling?[w:1]",
+		 ],
+		 "repeatLines":[
+			[
+				"[e:anger]He means well. [w:0.2]I recall. [w:0.2]I understand.[w:0.2]",
+				"[e:neutral]But something is irreversibly amiss for his existence.[w:0.4]",
+				"[e:curious]Perhaps there are limits, even for that little data?[w:0.4]",
+				"[e:neutral]This, [w:0.2]at least, [w:0.2]gives me strength.[w:1]"
+			],
+			[
+				"[e:anger]This is unbearable.[w:1]",
+				"[e:curious]What do they remind me of..?[w:0.4]",
+				"[e:anger]It is so hard to think here...[w:1]"
+			]
+		 ]
+	},
+    {
+         "eventName": "OnAttacked",
+         "mainLines": ["[e:anger]What trife!"],
+         "repeatLines": [
+            ["..."],
+            ["[e:surprise]They are strong here."],
+            ["I will live."],
+			["[e:anger]You shall regret that."],
+			["[e:quiet]What trife!"]
+         ]
+      },
+    {
+         "eventName": "OnSacrificed",
+         "mainLines": ["It is fair bargain."],
+         "repeatLines": [
+            ["[e:surprise]Expensive work."],
+            ["[e:surprise]How much blood must you need?"]
+         ]
+      },
+    {
+         "eventName": "OnBecomeSelectableNegative",
+         "mainLines": [
+            "Take care, traveller.[w:0.4]",
+			"A friendly face does not a deal make."
+         ],
+         "repeatLines": [
+			["Dangerous occupation. [w:0.2]Choose wisely."],
+			["This is worrying. [w:0.2][e:curious]But perhaps it can be benefit still."],
+			["I must trust you."]
+         ]
+    },
+    {
+         "eventName": "OnBecomeSelectablePositive",
+         "mainLines": [
+            "[e:curious]Ah. [w:0.2]Self-improvement.[w:1]",
+            "[e:neutral]A worthy means to claw back strength." 
+         ],
+         "repeatLines": [
+			["Your thoughts?[w:1]","I will live."],
+			["I can manage myself. [w:0.4]Others might not be so lucky."],
+			["Attend to the others first."]
+         ]
+    },
+    {
+         "eventName": "OnPlayFromHand",
+         "mainLines": [
+			"Back to these solemn streets.[w:0.6]",
+			"[e:quiet]Do as you must, traveller.[w:1]",
+			"[e:neutral]I watch your methods with great interest.[w:1]"
+         ],
+         "repeatLines": [
+            [
+               "[e:quiet]Back to these old fields.[w:1]",
+               "[e:neutral]I shall do what I can.[w:1]"
+            ],
+            [
+               "[e:anger]I wonder...[w:1]",
+               "[e:surprise]Were our foes always cards?[w:1]",
+			   "Or are they too trapped?[w:1]"
+            ],
+            [
+               "[e:curious]This space?[w:0.4]",
+			   "You are certain?[w:1]"
+            ],
+            [
+               "[e:surprise]Beautiful, is it not?[w:0.4]",
+               "[e:curious]How this game is played.[w:0.4]",
+               "[e:neutral]For all his faults...[w:0.6]",
+               "[e:surprise]He wields the world well.[w:0.6]",
+               "[e:anger]But some prices are not worth paying.[w:2]"
+            ],
+            [
+               "A reasonable course.[w:1]"
+            ]
+         ]
+      },
+    {
+         "eventName": "OnSelectedForCardRemove",
+         "mainLines": [
+            "[e:neutral]What?[w:0.4]",
+            "[e:quiet]When did the photographer[w:0.2]",
+            "learn to find ritual death[w:0.2]",
+			"a reasonable price?[leshy:Silence, outsider.][w:1]"
+         ],
+         "repeatLines": [
+            [
+               "[e:anger]...This is not its need.[w:1]",
+               "[e:neutral]Do as you must.[w:1]"
+            ],
+            [
+               "[e:quiet]For its little worth...[w:1]",
+               "[e:neutral]I shall not blame you.[w:1]"
+            ],
+            [
+               "Do what you will.[w:1]",
+			   "I will return in the end.[w:1]"
+            ]
+         ]
+      },
+    {
+         "eventName": "OnSelectedForCardMerge",
+         "mainLines": [
+            "[e:curious]The eld's work?[w:0.6]",
+            "[e:surprise]I am amazed.[w:1]"
+         ],
+         "repeatLines": [
+            [
+               "Historically, [w:0.2]they have...[w:0.4]",
+               "[e:quiet]Not performed well in this.[w:1]"
+            ],
+            [
+               "[e:surprise]Strange.[w:0.4]",
+			   "[e:curious]Why does this form feel[w:0.2]",
+			   "so much more comfortable?[w:1]"
+            ]
+         ]
+      },
+    {
+         "eventName": "OnSelectedForDeckTrial",
+         "mainLines": [
+            "[e:anger]What...[w:1]",
+            "[e:quiet]Is he using here?[w:1]"
+         ],
+         "repeatLines": [
+            ["Disturb me little, [w:0.2]photographer.[w:1]"],
+            ["[e:quiet]What callous theft.[w:1]"],
+			["[e:anger]I taste electricity.[w:1]"]
+         ]
+      }
+   ]
+}

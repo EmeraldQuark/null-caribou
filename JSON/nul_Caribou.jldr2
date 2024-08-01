@@ -1,0 +1,21 @@
+{
+  "name": "nul_Caribou",
+  "modPrefix": "nul",
+  "displayedName": "Caribou",
+  "description": "Wait. This isn't one of my cards. What happened to it?",
+  "metaCategories": ["ChoiceNode"],
+  "cardComplexity": "Intermediate",
+  "temple": "Nature",
+  "baseAttack": 3,
+  "baseHealth": 4,
+  "bloodCost": 3,
+  "tribes": ["Hooved"],
+  "traits": [],
+  "abilities": ["CreateDams", "CorpseEater"],
+  "specialAbilities": [],
+  "onePerDeck": true,
+  "defaultEvolutionName": "Sodden Caribou",
+  "flipPortraitForStrafe": false,
+  "tailName": "Tail_Furry",
+  "pixelTexture": "nul_Reindeer_Act_2_Sprite.png"
+}

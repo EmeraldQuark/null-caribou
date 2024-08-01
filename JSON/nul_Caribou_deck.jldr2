@@ -1,0 +1,9 @@
+{
+  "decks": [
+    {
+      "name": "Raincall",
+      "iconTexture": "nul_Raincall_deck.png",
+      "cards": [ "nul_Caribou", "Opossum", "Opossum" ]
+    }
+  ]
+}
