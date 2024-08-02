@@ -42,6 +42,13 @@
          }
       },
       {
+         "emotion": "Quiet",
+         "mouthSprites": {
+            "open": "nul_Caribou_Laughter_Mouth_Open.png",
+            "closed": "nul_Caribou_Mouth_Closed.png"
+         },
+      },
+      {
          "emotion": "Surprise",
          "eyeSprites": {
             "open": "nul_Caribou_Surprised_Eyes_Open.png",
